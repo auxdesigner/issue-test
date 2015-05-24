@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "description": "test",
+  "version": "1.4",
+
+  "permissions": [
+  "clipboardWrite",
+  "clipboardRead"
+  ],
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
